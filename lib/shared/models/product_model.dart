@@ -11,4 +11,8 @@ class Product with ChangeNotifier {
     this.image = '',
     this.price = 0,
   });
+
+  funcList() {
+    return Product;
+  }
 }

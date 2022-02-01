@@ -10,6 +10,8 @@ class CardProduct extends StatefulWidget {
 }
 
 class _CardProductState extends State<CardProduct> {
+  final scrollController = ScrollController();
+
   @override
   Widget build(BuildContext context) {
     final Product product = Provider.of<Product>(context, listen: false);
